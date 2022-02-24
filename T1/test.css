@@ -938,10 +938,16 @@ a {
 .am-toast-notice-content .am-toast-text.am-toast-text-icon .am-toast-text-info {
   margin-top: 0.16rem;
 }
+#root {
+  font-size: 0.53333333rem;
+}
+
 input {
   width: 2.66666667rem;
   border: 0.02666667rem solid #d9d9d9;
   border-radius: 0.05333333rem;
+  margin: 0 0.26666667rem;
+  flex: 1;
 }
 
 input:focus {
@@ -985,29 +991,29 @@ input:focus {
 .square {
   display: flex;
   justify-content: space-between;
+  margin: 0.8rem 0;
 }
 
 .square .square-content {
-  display: flex;
-  width: 80%;
-  align-items: center;
+  flex: 1;
 }
 
 .square .square-content .square-item {
-  margin-right: 0.26666667rem;
-}
-
-.square .square-content .square-item:last-child {
-  margin-right: 0;
+  margin-bottom: 0.26666667rem;
+  display: flex;
 }
 
 .circular {
-  margin-top: 0.8rem;
   display: flex;
+}
+
+.circular .circular-content {
+  flex: 1;
 }
 
 .circular .circular-item {
   margin-bottom: 0.26666667rem;
+  display: flex;
 }
 
 .results {
