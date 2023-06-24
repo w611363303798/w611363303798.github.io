@@ -1023,10 +1023,19 @@ input:focus {
   overflow-y: auto;
 }
 
+.results .result-warp {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.16rem 0.26666667rem;
+}
+
 .total {
   font-size: 0.8rem;
   font-weight: bold;
   margin-top: 0.53333333rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.16rem 0.26666667rem;
 }
 
 .btns-warp {
